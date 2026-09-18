@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | AIForge</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                AI<span>Forge</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="active">Contact Us</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- CONTACT HERO -->
+    <section class="page-hero contact-hero">
+        <div class="container section-heading">
+
+            <span class="section-label">GET IN TOUCH</span>
+
+            <h1>
+                Let's build something
+                <span>smart together.</span>
+            </h1>
+
+            <p>
+                Have an AI project in mind? Tell us about it and
+                let's explore how AIForge can help.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+        <div class="container contact-grid">
+
+            <!-- CONTACT INFO -->
+            <div class="contact-info">
+
+                <span class="section-label">CONTACT AIForge</span>
+
+                <h2>
+                    Turn your idea into an
+                    <span>AI solution.</span>
+                </h2>
+
+                <p>
+                    Whether you need an AI chatbot, RAG application,
+                    data analysis solution, machine learning model,
+                    or workflow automation, we're ready to help.
+                </p>
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">✉</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>hello@aiforge.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">⚡</div>
+                        <div>
+                            <h4>Response Time</h4>
+                            <p>We usually respond within 24 hours.</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <div class="contact-icon">🤖</div>
+                        <div>
+                            <h4>AI Solutions</h4>
+                            <p>Custom solutions for your business needs.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-wrapper">
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                        >
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+
+                        <select id="service" name="service" required>
+                            <option value="">Choose a service</option>
+                            <option value="AI Chatbot Development">
+                                AI Chatbot Development
+                            </option>
+                            <option value="RAG Application Development">
+                                RAG Application Development
+                            </option>
+                            <option value="Data Analysis & Visualization">
+                                Data Analysis & Visualization
+                            </option>
+                            <option value="Machine Learning Solutions">
+                                Machine Learning Solutions
+                            </option>
+                            <option value="AI Workflow Automation">
+                                AI Workflow Automation
+                            </option>
+                            <option value="Custom AI Assistants">
+                                Custom AI Assistants
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="message">Project Details</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Tell us about your project..."
+                            required
+                        ></textarea>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary">
+                        Send Inquiry →
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CTA -->
+    <section class="section section-dark">
+        <div class="container section-heading">
+
+            <span class="section-label">START YOUR PROJECT</span>
+
+            <h2>
+                Ready to build
+                <span>smarter?</span>
+            </h2>
+
+            <p>
+                Let's discuss your idea and find the right AI solution.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <div>
+                <div class="logo">
+                    AI<span>Forge</span>
+                </div>
+
+                <p>
+                    Build Smarter. Automate Faster.
+                </p>
+            </div>
+
+            <div>
+                <p>© 2026 AIForge. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
