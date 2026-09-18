@@ -3,7 +3,7 @@
 **AIForge** is a modern, responsive, and professional AI services website designed to showcase AI-powered solutions and digital services. The website provides visitors with an attractive interface to explore available services, learn about the project, view featured projects, and get in touch.
 
 🌐 **Live Website:**
-https://rohama789-blip.github.io/AIForge-Service-Website/index.html
+https://rohama789-blip.github.io/AIForge-Service-Website
 
 📂 **GitHub Repository:**
 https://github.com/Rohama789-blip/AIForge-Service-Website
@@ -170,7 +170,7 @@ The website is deployed using **GitHub Pages**.
 
 **AIForge Live Website:**
 
-https://rohama789-blip.github.io/AIForge-Service-Website/index.html
+https://rohama789-blip.github.io/AIForge-Service-Website
 
 ---
 
@@ -282,22 +282,6 @@ You may modify and improve the project according to your own requirements.
 
 ---
 
-## 👨‍💻 Author
-
-**Rohama**
-
-AI & Data Science Student
-
-### 🔗 Project Links
-
-* 🌐 **Live Website:**
-  https://rohama789-blip.github.io/AIForge-Service-Website
-
-* 📂 **GitHub Repository:**
-  https://github.com/Rohama789-blip/AIForge-Service-Website
-
----
-
 ## ⭐ Acknowledgements
 
 This project was developed as part of an AI/web development assignment to demonstrate practical skills in:
@@ -311,4 +295,4 @@ This project was developed as part of an AI/web development assignment to demons
 
 ---
 
-### ⭐ If you find this project useful, consider giving the repository a star!
+
